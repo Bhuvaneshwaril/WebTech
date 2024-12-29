@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#form{
+    background: url(../Assets/image1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    padding: 10px 0px;
+}
+
+h1{
+    padding: 20px;
+}
+form, input{
+    font-weight: 600;
+}
+form{
+    text-shadow: 1px 1px black;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px purple;
+}
+
+input{
+    padding: 5px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+#emptyValidation, #passValidation1, #passValidation2, #passValidation3{
+    display: none;
+}
+
+#pass1, #pass2{
+    position: relative;
+}
+
+i{
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    visibility: hidden;
+}
+
+i:hover{
+    cursor: pointer;
+}

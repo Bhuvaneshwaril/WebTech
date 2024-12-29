@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/formValidation.css" />
+</head>
+
+<body>
+    <div id="form">
+        <form action="#">
+            <h1>Create Login</h1>
+            <div>
+                <table>
+                    <tr>
+                        <td><label for="username">Student Username</label></td>
+                        <td><input type="text" id="username" /></td>
+                    </tr>
+                    <tr id="emptyValidation">
+                        <td style="color: red;">Please Enter the username!!</td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Student E-mail</label></td>
+                        <td><input type="mail" id="mail" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="newpass">New Password</label></td>
+                        <td id="pass1"><input type="password" id="newpass" /><i id="neye1"
+                                class="fa-regular fa-eye"></i><i id="neye2" class="fa-regular fa-eye-slash"></i></td>
+                    </tr>
+                    <tr id="passValidation3">
+                        <td style="color: red;">Password only accept number!!</td>
+                    </tr>
+                    <tr>
+                        <td><label for="cpass">Confirm Password</label></td>
+                        <td id="pass2"><input type="password" id="cpass" /><i id="ceye1"
+                                class="fa-regular fa-eye"></i><i id="ceye2" class="fa-regular fa-eye-slash"></i></td>
+                    </tr>
+                    <tr id="passValidation1">
+                        <td style="color: red;">Given Password is not Matched!!</td>
+                    </tr>
+                    <tr id="passValidation2">
+                        <td style="color: green;">Given Password is Matched!!</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Submit" /></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <a href="#">Already have an Account??</a>
+                <a href="#">Log-in!!</a>
+            </div>
+    </div>
+    </form>
+</body>
+<script src="../JavaScript/formValidation.js"></script>
+<script src="https://kit.fontawesome.com/50c1be347f.js" crossorigin="anonymous"></script>
+
+</html>
